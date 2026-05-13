@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1778630112 source:c:\users\prisc\onedrive\documentos\programación3tareas\tarea x - avl\avl.cpp
+	"AVL.h"
+
+1778629749 c:\users\prisc\onedrive\documentos\programación3tareas\tarea x - avl\avl.h
+	"Student.h"
+	<iostream>
+	<algorithm>
+
+1778629567 c:\users\prisc\onedrive\documentos\programación3tareas\tarea x - avl\student.h
+	<string>
+
+1778630721 source:c:\users\prisc\onedrive\documentos\programación3tareas\tarea x - avl\main.cpp
+	<iostream>
+	<string>
+	"AVL.h"
+	"Student.h"
+
