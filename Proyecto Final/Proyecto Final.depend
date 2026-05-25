@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1778739066 source:c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\avl.cpp
+1779070523 source:c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\avl.cpp
 	"AVL.h"
 	<iostream>
 	<algorithm>
@@ -7,7 +7,7 @@
 1779070584 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\avl.h
 	"Student.h"
 
-1779070654 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\student.h
+1779235339 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\student.h
 	<string>
 	<iostream>
 

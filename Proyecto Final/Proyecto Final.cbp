@@ -34,7 +34,10 @@
 		</Compiler>
 		<Unit filename="AVL.cpp" />
 		<Unit filename="AVL.h" />
+		<Unit filename="ActionStack.h" />
+		<Unit filename="Benchmark.h" />
 		<Unit filename="CSVReader.h" />
+		<Unit filename="Graph.h" />
 		<Unit filename="HashTable.h" />
 		<Unit filename="Student.h" />
 		<Unit filename="main.cpp" />

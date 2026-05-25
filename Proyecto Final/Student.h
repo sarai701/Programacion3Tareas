@@ -32,6 +32,60 @@ struct Student {
     // Constructor por defecto para inicializar valores limpios
     Student() : student_id(0), semester(0), gpa(0.0f), skill_score(0), projectsHead(nullptr) {}
 
+    // Métodos para la gestión manual de la lista de proyectos
+    bool addProject(int id, std::string title, std::string desc, int year) {
+        // Validación obligatoria: No permitir project_id duplicados en este estudiante
+        Project* temp = projectsHead;
+        while (temp) {
+            if (temp->project_id == id) {
+                return false; // Duplicado detectado
+            }
+            temp = temp->next;
+        }
+
+        // Insertar al inicio de la lista enlazada (eficiencia O(1))
+        Project* newProj = new Project(id, title, desc, year);
+        newProj->next = projectsHead;
+        projectsHead = newProj;
+        return true;
+    }
+
+    void displayProjects() {
+        if (!projectsHead) {
+            std::cout << "El estudiante no tiene proyectos registrados.\n";
+            return;
+        }
+        Project* temp = projectsHead;
+        std::cout << "--- Proyectos de " << full_name << " ---\n";
+        while (temp) {
+            std::cout << "ID: " << temp->project_id << " | Titulo: " << temp->title << "\n"
+                      << "   Descripcion: " << temp->description << "\n"
+                      << "   Ano de Finalizacion: " << temp->completion_year << "\n"
+                      << "----------------------------------------\n";
+            temp = temp->next;
+        }
+    }
+
+    bool removeProject(int id) {
+        Project* temp = projectsHead;
+        Project* prev = nullptr;
+
+        while (temp) {
+            if (temp->project_id == id) {
+                if (prev == nullptr) {
+                    projectsHead = temp->next; // Era la cabeza
+                } else {
+                    prev->next = temp->next; // Desenlazar nodo intermedio o final
+                }
+                delete temp;
+                return true;
+            }
+            prev = temp;
+            temp = temp->next;
+        }
+        return false; // No encontrado
+    }
+
     bool isGreaterThan(const Student& other) const {
         if (this->skill_score != other.skill_score) {
             return this->skill_score > other.skill_score;
