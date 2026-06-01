@@ -1,0 +1,119 @@
+# depslib dependency file v1.0
+1779907909 source:c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\avl.cpp
+	"AVL.h"
+	<iostream>
+	<algorithm>
+
+1779907925 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\avl.h
+	"Student.h"
+
+1780202065 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\student.h
+	<string>
+	<iostream>
+
+1780204393 source:c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\main.cpp
+	<iostream>
+	<string>
+	"Student.h"
+	"HashTable.h"
+	"AVL.h"
+	"Graph.h"
+	"ActionStack.h"
+	"CSVReader.h"
+	"Benchmark.h"
+	<chrono>
+
+1780120343 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\hashtable.h
+	"Student.h"
+	<iostream>
+
+1779907994 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\csvreader.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	"Student.h"
+	"HashTable.h"
+	"AVL.h"
+	"Graph.h"
+
+1780126986 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\graph.h
+	<iostream>
+	<vector>
+	<queue>
+	<unordered_map>
+	<algorithm>
+
+1779907912 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\actionstack.h
+	<string>
+	<iostream>
+
+1779907978 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\benchmark.h
+	<iostream>
+	<fstream>
+	<chrono>
+	<string>
+	"HashTable.h"
+	"AVL.h"
+	"Graph.h"
+	"Student.h"
+
+1779907909 source:c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\cpp-system\avl.cpp
+	"AVL.h"
+	<iostream>
+	<algorithm>
+
+1780285411 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\cpp-system\avl.h
+	"Student.h"
+
+1780285920 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\cpp-system\student.h
+	<string>
+	<iostream>
+
+1780285295 source:c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\cpp-system\main.cpp
+	<iostream>
+	<string>
+	"Student.h"
+	"HashTable.h"
+	"AVL.h"
+	"Graph.h"
+	"ActionStack.h"
+	"CSVReader.h"
+	"Benchmark.h"
+	<chrono>
+
+1780285820 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\cpp-system\hashtable.h
+	"Student.h"
+	<iostream>
+
+1780285640 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\cpp-system\graph.h
+	<iostream>
+	<vector>
+	<queue>
+	<unordered_map>
+	<algorithm>
+
+1780285359 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\cpp-system\actionstack.h
+	<string>
+	<iostream>
+
+1780285552 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\cpp-system\csvreader.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	"Student.h"
+	"HashTable.h"
+	"AVL.h"
+	"Graph.h"
+
+1780285483 c:\users\prisc\onedrive\documentos\programación3tareas\proyecto final\cpp-system\benchmark.h
+	<iostream>
+	<fstream>
+	<chrono>
+	<string>
+	"HashTable.h"
+	"AVL.h"
+	"Graph.h"
+	"Student.h"
+
